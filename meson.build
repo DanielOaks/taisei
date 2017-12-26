@@ -257,5 +257,3 @@ subdir('xdg')
 subdir('scripts')
 
 message(summary)
-
-run_command(find_program(join_paths(scripts_dir, 'dump-build-options.py')), meson.build_root())
